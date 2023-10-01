@@ -1,3 +1,6 @@
+body {
+    overflow-y:hidden;
+  }
 #inbox-column{
     background-color: rgb(150, 149, 149);
 }
@@ -9,3 +12,10 @@
     background-color:rgb(212, 213, 214);
 }
 
+#reply-email{
+    height: 300px;
+ }
+
+ #reply-text{
+    height:170px;
+ }
