@@ -1,11 +1,11 @@
 body {
-    overflow-y:hidden;
+    min-width: 330px;
   }
 #inbox-column{
     background-color: rgb(150, 149, 149);
 }
 .email-list{
-    background-color: rgb(252, 242, 230);
+    background-color: rgba(252, 242, 230, 0.555);
 }
 
 .open-email{
@@ -18,4 +18,9 @@ body {
 
  #reply-text{
     height:170px;
+ }
+
+ .compose-button{
+    display:flex;
+    justify-content: center;
  }
