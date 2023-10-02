@@ -29,7 +29,7 @@ DEVLOG
     debugged project
 
 10/1/2023
-7:00pm - 8:30pm
+7:00pm - 8:40pm
     finished column two
     created dropdown menu and compose buttons
     debugged project
