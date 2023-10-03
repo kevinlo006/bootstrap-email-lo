@@ -12,15 +12,25 @@ body {
     background-color:rgb(212, 213, 214);
 }
 
-#reply-email{
-    height: 300px;
+.reply-email{
+    height: 550px;
  }
 
- #reply-text{
-    height:170px;
- }
 
  .compose-button{
     display:flex;
     justify-content: center;
  }
+
+ .logo-image{
+    width:100px;
+    height:75px;
+ }
+
+.email-text{
+    font-size:24px;
+}
+
+.reply-button{
+
+}
