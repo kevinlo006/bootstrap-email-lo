@@ -12,11 +12,6 @@ body {
     background-color:rgb(212, 213, 214);
 }
 
-.reply-email{
-    height: 550px;
- }
-
-
  .compose-button{
     display:flex;
     justify-content: center;

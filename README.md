@@ -34,9 +34,9 @@ DEVLOG
     created dropdown menu and compose buttons
     debugged project
 
-10/2/2023
+10/3/2023
 2:30am-4:00am
     reorganized and redo of column three
     changed text in column two
-    
+
 
