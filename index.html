@@ -49,24 +49,56 @@
 
   <div class="container-fluid">
     <div class="row h-100">
-      <!-- Inbox -->
+      <!-- Inbox Column 1 -->
       <div class="col-md-2 d-none d-md-block" id="inbox-column">
-        <div class="mt-5 d-flex flex-column justify-content-start align-items-center gap-5">
-          <button class="btn btn-light w-autom-1 border-primary"><i class="fa-solid"></i>Inbox</button>
+
+        <!-- Inbox buttons -->
+        <div class="mt-5 d-flex flex-column justify-content-start align-items-center gap-4 inbox-button">
+          <button class="btn btn-light w-auto m-1 border-primary"><i class="fa-solid"></i>Inbox</button>
           <button class="btn btn-light w-auto m-1"><i class="fa-solid"></i>Sent</button>
           <button class="btn btn-light w-auto m-1"><i class="fa-solid"></i> Drafts</button>
           <button class="btn btn-light w-auto m-1"><i class="fa-solid"></i> Spam</button>
           <button class="btn btn-light w-auto m-1"><i class="fa-solid"></i> Trash</button>
         </div>
       </div>
-      <!-- Emails Section -->
+      <!-- Emails Section Column 2 -->
       <div class="col-sm-12 col-md-10 col-lg-3 email-list">
 
         <!-- Compose Button -->
         <div class="compose-button d-lg-none d-xl-none me-2 mb-1 mt-2">
-          <button type="button" class="btn btn-outline-primary">Compose</button>
+          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Compose</button>   
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-subject" class="col-form-label">Subject:</label>
+                      <input type="text" class="form-control" id="message-subject">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
+
         <!-- Email list -->
         <div class="card text-bg-secondary mb-3 w-auto mt-3">
           <div class="card-header">Amazon</div>
@@ -105,8 +137,8 @@
         </div>
       </div>
 
-      <!-- Email Reply -->
-      <div class="col-7 d-none d-lg-block">
+      <!-- Email Reply Column 3 -->
+      <div class="col-7 d-none d-lg-block open-email">
        
         <!-- Email Text -->
         <div class="card reply-email mt-3">
@@ -120,7 +152,7 @@
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
                 <label for="floatingTextarea2">Reply</label>
               </div>
-              <a href="#" class="btn btn-primary position-absolute bottom-0 end-0">Send</a>
+              <a href="#" class="btn btn-success position-absolute bottom-0 end-0">Send</a>
           </div>
         </div>
 

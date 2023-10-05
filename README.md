@@ -39,4 +39,9 @@ DEVLOG
     reorganized and redo of column three
     changed text in column two
 
+10/3/2023
+10:00pm - 11:00pm
+    debugged project
+    fixed sizing and spacing
+
 

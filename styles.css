@@ -2,10 +2,10 @@ body {
     min-width: 330px;
   }
 #inbox-column{
-    background-color: rgb(150, 149, 149);
+    background-color: rgba(68, 68, 68, 0.836);
 }
 .email-list{
-    background-color: rgba(252, 242, 230, 0.555);
+    background-color: rgba(250, 242, 233, 0.651);
 }
 
 .open-email{
@@ -25,3 +25,8 @@ body {
 .email-text{
     font-size:24px;
 }
+
+.reply-email{
+    height: 610px;
+}
+
