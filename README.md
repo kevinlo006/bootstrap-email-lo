@@ -45,6 +45,6 @@ DEVLOG<br>
     fixed sizing and spacing<br>
 
 10/4/2023
-8:20pm -8:40pm<br>
+8:20pm -8:50pm<br>
     debugged project<br>
 

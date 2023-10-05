@@ -30,3 +30,8 @@ body {
     height: 610px;
 }
 
+.text-header{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
